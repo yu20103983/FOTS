@@ -15,7 +15,7 @@ All detect and OCR module have been tested!
 
 >> python2 multigpu_train.py [gpu_list]
 
-You should give data set path in file 'FOTS/dataset/dataReader.py' with ICDAR format
+You should give the path to the dataset labeled in ICDAR format in file 'FOTS/dataset/dataReader.py'
 
 ### Test
 

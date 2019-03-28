@@ -3,12 +3,13 @@
 ### Introduction
 
 Do text detect and OCR in an entire End-to-End model
+
 All detect and OCR module have been tested!
 
 ### Installation
 
-++ tensorflow 
-++ opencv 
++ tensorflow 
++ opencv 
 
 ### Train
 
@@ -23,5 +24,6 @@ call FOTS_testModel()
 ### Author
 
 Call me yufeng_yu@sina.com
+
 From @SF.Tech
 

@@ -4,7 +4,7 @@
 
 Do text detect and OCR in an entire End-to-End model
 
-All detect and OCR module have been tested!
+All detect and OCR modules have been tested!
 
 ### Installation
 

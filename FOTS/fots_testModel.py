@@ -202,7 +202,7 @@ class FOTS_testModel():
                     box_ =  box[:8].reshape((4, 2))
                     if np.linalg.norm(box_[0] - box_[1]) < FLAGS.min_scale or np.linalg.norm(box_[3]-box_[0]) < FLAGS.min_scale:
                         continue
-                    result.append(box)
+                    result.append(box_)
             res.append(np.array(result, np.float32))
 
         return (res if isinstance(im, list) or im.ndim == 4 else res[0]) if getFeatures is False else res, sharedFeatures 

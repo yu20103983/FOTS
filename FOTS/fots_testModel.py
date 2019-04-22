@@ -224,6 +224,7 @@ class FOTS_testModel():
                     box_index.append((i, j))
 
             if len(rotateParas) > 0:
+                rotateParas = map(lambda x: np.array(x), zip(*rotateParas))
                 filter_bsharedFeatures.append(sharedFeatures)
                 brotateParas.append(rotateParas)
         if len(brotateParas) == 0:
